@@ -10,7 +10,7 @@ const UseViewer = ({folderName}) => {
           .then((data) => setNumImages(data.length))
           .catch((error) => console.log(error));
       }, [folderName]);
-      useEffect()
+      useEffect()                       //y esto es lo q me pedite que agregara pero hizo q dejarad e funcionar...
       console.log(numImages)
   
   return (
@@ -19,7 +19,7 @@ const UseViewer = ({folderName}) => {
         <React360Viewer
             imagesBaseUrl={`./images360/${folderName}`}
             imageFilenamePrefix=''
-            imagesCount={84}
+            imagesCount={84}      //Aqui debe ir el numImages, pero en cunato lo cambio hay error
             imagesFiletype="jpg"
             mouseDragSpeed={50}
             width={700}
