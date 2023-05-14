@@ -19,7 +19,7 @@ const UseViewer = ({folderName}) => {
         <React360Viewer
             imagesBaseUrl={`./images360/${folderName}`}
             imageFilenamePrefix=''
-            imagesCount={84}
+            imagesCount={imagesCount}
             imagesFiletype="jpg"
             mouseDragSpeed={50}
             width={700}
