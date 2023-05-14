@@ -10,9 +10,8 @@ const UseViewer = ({folderName}) => {
           .then((data) => setNumImages(data.length))
           .catch((error) => console.log(error));
       }, [folderName]);
-      useEffect()                       //y esto es lo q me pedite que agregara pero hizo q dejarad e funcionar...
-      console.log(numImages)
-  
+
+
   return (
     <div>
         {useEffect}
